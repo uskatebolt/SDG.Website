@@ -1,0 +1,594 @@
+[
+  {
+    "GeoAreaName": "Africa",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Oceania",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Eastern Africa",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Southern Africa",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Australia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Australia and New Zealand",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Belize",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Southern Asia (excluding India)",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Western Asia",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Chile",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "World",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Albania",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Central America",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Middle Africa",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Northern America",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Eastern Asia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "South-Eastern Asia",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Bahamas",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Micronesia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Canada",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Least Developed Countries (LDCs)",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Denmark",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "El Salvador",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "France",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Sri Lanka",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Eastern Europe",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Cyprus",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Benin",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Ecuador",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Gambia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Guinea",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Iceland",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Côte d'Ivoire",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Lebanon",
+    "Value": 1
+  },
+  {
+    "GeoAreaName": "Landlocked developing countries (LLDCs)",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Luxembourg",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Malaysia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Guyana",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Honduras",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Ireland",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Jamaica",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Kyrgyzstan",
+    "Value": 1
+  },
+  {
+    "GeoAreaName": "Libya",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Maldives",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "South America",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Caribbean",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Southern Asia",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Austria",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Western Africa",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Northern Africa",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Americas",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Antigua and Barbuda",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Argentina",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Southern Europe",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Bangladesh",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Western Asia (exc. Armenia, Azerbaijan, Cyprus, Israel and Georgia)",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Oman",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Namibia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Netherlands",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "New Zealand",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Belgium",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Central and Southern Asia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Solomon Islands",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Myanmar",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Cameroon",
+    "Value": 1
+  },
+  {
+    "GeoAreaName": "Caucasus and Central Asia",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Central Asia",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Europe",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Western Europe",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Cuba",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Czechia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Dominican Republic",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Faroe Islands",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Finland",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Georgia",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Mauritania",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Europe and Northern America",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Eastern Asia (excluding Japan)",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Ghana",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Guatemala",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Hungary",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Iran (Islamic Republic of)",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Italy",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Republic of Korea",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Latin America and the Caribbean",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Lithuania",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Malawi",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Malta",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Mexico",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Developing regions",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Vanuatu",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Melanesia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Polynesia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Bulgaria",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Cabo Verde",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Asia",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Northern Europe",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Croatia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Sub-Saharan Africa",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Estonia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Fiji",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Germany",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Greece",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Indonesia",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Japan",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Latvia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Madagascar",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Mali",
+    "Value": 1
+  },
+  {
+    "GeoAreaName": "Nicaragua",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Micronesia (Federated States of)",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Philippines",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Slovakia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Suriname",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Pakistan",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Peru",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Portugal",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Senegal",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Somalia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Spain",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Sub-Saharan Africa (inc. Sudan)",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Northern Africa and Western Asia",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Morocco",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Developed regions (Europe, Cyprus, Israel, Northern America, Japan, Australia & New Zealand)",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Oceania (exc. Australia and New Zealand)",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Norway",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Romania",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Sao Tome and Principe",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Seychelles",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Viet Nam",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Sudan",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Sweden",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Tajikistan",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Tonga",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Turkey",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Palau",
+    "Value": 2
+  },
+  {
+    "GeoAreaName": "Poland",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Russian Federation",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Slovenia",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Small island developing States (SIDS)",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Northern Africa (exc. Sudan)",
+    "Value": 3
+  },
+  {
+    "GeoAreaName": "Eastern and South-Eastern Asia",
+    "Value": 4
+  },
+  {
+    "GeoAreaName": "Thailand",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Trinidad and Tobago",
+    "Value": 1
+  },
+  {
+    "GeoAreaName": "Burkina Faso",
+    "Value": 1
+  },
+  {
+    "GeoAreaName": "United Republic of Tanzania",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Uruguay",
+    "Value": 5
+  },
+  {
+    "GeoAreaName": "Venezuela (Bolivarian Republic of)",
+    "Value": 2
+  }
+]

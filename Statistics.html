@@ -1,0 +1,191 @@
+
+<html lang="en" dir="ltr">
+<head>
+
+<title>SDG 14.5</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+</head>
+    
+    
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+  <h1>SDG 14.5</h1>
+      <h2>The Future of our Ocean</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="SDG.html">SDG 14.5 Info</a></li>
+        <li><a href="Statistics.html">Statistics</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+
+    
+<meta charset="utf-8">
+    <select id="sel" onchange="show(this)">
+        <option value="">-- Select Region --</option>
+    </select>
+
+    <p id="msg"></p>
+    <script>
+    window.onload = populateSelect();
+
+    function populateSelect() {
+
+        var xhr = new XMLHttpRequest(), 
+            method = 'GET',
+            overrideMimeType = 'application/json',
+            url = 'https://amirrezamds.github.io/sitemap/csvjson.json';        // ADD THE URL OF THE FILE.
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                
+                // PARSE JSON DATA.
+                var birds = JSON.parse(xhr.responseText);
+
+                var ele = document.getElementById('sel');
+                for (var i = 0; i < birds.length; i++) {
+                    // BIND DATA TO <select> ELEMENT.
+                    ele.innerHTML = ele.innerHTML +
+                        '<option value="' + birds[i].Value + '">' + birds[i].GeoAreaName + '</option>';
+                }
+            }
+        };
+        xhr.open(method, url, true);
+        xhr.send();
+    }
+
+    function show(ele) {
+        var msg = document.getElementById('msg');
+        msg.innerHTML = 'Selected Region: <b>' + ele.options[ele.selectedIndex].text + '</b> </br>' +
+            'Value: <b>' + ele.value + '</b>';
+    }
+</script>
+<head>
+	<style>
+
+  .bar{
+    fill: steelblue;
+  }
+
+  .bar:hover{
+    fill: brown;
+  }
+
+	.axis {
+	  font: 10px sans-serif;  
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+	</style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+	
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script>
+// set the dimensions of the canvas
+var margin = {top: 20, right: 20, bottom: 500, left: 40},
+    width = 3000  - margin.right,
+    height = 700 - margin.top - margin.bottom;
+
+
+// set the ranges
+var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+var y = d3.scale.linear().range([height, 0]);
+
+// define the axis
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10);
+
+
+// add the SVG element
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+
+// load the data
+d3.json("https://amirrezamds.github.io/sitemap/csvjson.json", function(error, data) {
+
+    data.forEach(function(d) {
+        d.GeoAreaName = d.GeoAreaName;
+        d.Value = +d.Value;
+    });
+	
+  // scale the range of the data
+  x.domain(data.map(function(d) { return d.GeoAreaName; }));
+  y.domain([0, d3.max(data, function(d) { return d.Value; })]);
+
+  // add axis
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", "-.55em")
+      .attr("transform", "rotate(-90)" )
+          .style("text-anchor", "end")
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 5)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Value");
+
+
+  // Add bar chart
+  svg.selectAll("bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.GeoAreaName); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.Value); })
+      .attr("height", function(d) { return height - y(d.Value); });
+});
+
+    
+
+    </script>
+    
+</body>
+    <!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p>Copyright &copy; 2020 - All Rights Reserved - McDonald Sites</p>
+
+  </footer>
+</div>
+</html>
